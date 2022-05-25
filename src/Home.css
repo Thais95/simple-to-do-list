@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {    
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    background: #333333;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.input-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 25px;
+    gap: 30px;
+    width: 100%;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.add-item-button{
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    font-weight: 600;
+    background-color: #73d77d;
+}
+
+.delete-item-button{
+    padding: 5px;
+    align-self: center;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: #df637c;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+ul{
+    width: 100%;
+    overflow-y: auto;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 18px;
+}
